@@ -1,0 +1,133 @@
+{
+	"ENCODE_award_rfa" : "",
+	"ENCODE_assay_category" : "",
+	"ENCODE_assay_title" : "ATAC-seq",
+	"ENCODE_accession" : "",
+	"species" : "hg38_ENCODE",
+	"title" : "COMBINED_TEST",
+	"data_files" : [
+		{
+			"aliases:array" : "[KLAB_PIPELINE:scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.bam]",
+			"assembly" : "",
+			"award" : "",
+			"dataset" : "",
+			"derived_from:array" : "[KLAB_PIPELINE:scATAC.Combined_R1_Sequences.fastq.gz;KLAB_PIPELINE:scATAC.Combined_R2_Sequences.fastq.gz]",
+			"file_format" : "bam",
+			"lab" : "",
+			"md5sum" : "486970301e834e4bbc98b515b1fa39ff",
+			"output_type" : "alignments",
+			"step_run" : "anshul-kundaje:atac-seq-trim-align-filter-step-run-single-rep-v1",
+			"submitted_file_name" : "scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.bam"
+		}
+		
+	],
+	"qc_files" : [
+		{
+			"contents" : "2794222\t0\t0\t0\t1296704\t0\t46.41\t2794222\t0\t1397111\t0\t1397111\t0\t803878\t0\t28.77\t1015462\t0\t281242\t0\t10.07\t66077\t0",
+			"header" : "total\ttotal_qc_failed\tduplicates\tduplicates_qc_failed\tmapped\tmapped_qc_failed\tmapped_pct\tpaired\tpaired_qc_failed\tread1\tread1_qc_failed\tread2\tread2_qc_failed\tpaired_properly\tpaired_properly_qc_failed\tpaired_properly_pct\twith_itself\twith_itself_qc_failed\tsingletons\tsingletons_qc_failed\tsingletons_pct\tdiff_chroms\tdiff_chroms_qc_failed",
+			"info" : "rep1",
+			"qc_type" : "flagstat"
+		}
+		
+		,
+		{
+			"contents" : "0\t208311\t0\t0\t62293\t45621\t0.299038",
+			"header" : "unpaired_reads\tpaired_reads\tunmapped_reads\tunpaired_dupes\tpaired_dupes\tpaired_opt_dupes\tdupes_pct",
+			"info" : "rep1",
+			"qc_type" : "dup"
+		}
+		
+		,
+		{
+			"contents" : "292036\t0\t0\t0\t292036\t0\t100.00\t292036\t0\t146018\t0\t146018\t0\t292036\t0\t100.00\t292036\t0\t0\t0\t0.00\t0\t0",
+			"header" : "total\ttotal_qc_failed\tduplicates\tduplicates_qc_failed\tmapped\tmapped_qc_failed\tmapped_pct\tpaired\tpaired_qc_failed\tread1\tread1_qc_failed\tread2\tread2_qc_failed\tpaired_properly\tpaired_properly_qc_failed\tpaired_properly_pct\twith_itself\twith_itself_qc_failed\tsingletons\tsingletons_qc_failed\tsingletons_pct\tdiff_chroms\tdiff_chroms_qc_failed",
+			"info" : "rep1",
+			"qc_type" : "flagstat_filt"
+		}
+		
+		,
+		{
+			"contents" : "153026\t111288\t82070\t20718\t0.727249\t0.737456\t3.961290",
+			"header" : "total_read_pairs\tdistinct_read_pairs\tone_read_pair\ttwo_read_pair\tNRF\tPBC1\tPBC2",
+			"info" : "rep1",
+			"qc_type" : "pbc"
+		}
+		
+		,
+		{
+			"contents" : "109129\t0\t0.00335468530055079\t125\t0.004161496\t1500\t0.002200196\t1.524721\t0.5886347",
+			"header" : "num_reads\test_frag_len\tcorr_est_frag_len\tphantom_peak\tcorr_phantom_peak\targmin_corr\tmin_corr\tNSC\tRSC",
+			"info" : "rep1",
+			"qc_type" : "xcor"
+		}
+		
+		,
+		{
+			"contents" : "0\t0\t0\t0\t0\t0\tself_pseudo_rep_rep1\tself_pseudo_rep_rep1\t0.0\t1.0\tpass",
+			"header" : "Nt\tN1\tN2\tNp\tN_opt\tN_consv\topt_set\tconsv_set\trescue_ratio\tself_consistency_ratio\treproducibility_test",
+			"info" : "rep1",
+			"qc_type" : "idr"
+		}
+		
+		,
+		{
+			"contents" : "0",
+			"header" : "FRiP",
+			"info" : "rep1-pr",
+			"qc_type" : "idr_FRiP"
+		}
+		
+	],
+	"ENCODE_quality_metrics" : [
+		{
+			"ENCODE_qc_type" : "samtools_flagstats_quality_metric",
+			"award" : "",
+			"diff_chroms" : "66077",
+			"diff_chroms_qc_failed" : "0",
+			"duplicates" : "0",
+			"duplicates_qc_failed" : "0",
+			"lab" : "",
+			"mapped" : "1296704",
+			"mapped_pct" : "46.41",
+			"mapped_qc_failed" : "0",
+			"paired" : "2794222",
+			"paired_properly" : "803878",
+			"paired_properly_pct" : "28.77",
+			"paired_properly_qc_failed" : "0",
+			"paired_qc_failed" : "0",
+			"quality_metric_of:array" : "[KLAB_PIPELINE:scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.bam]",
+			"read1" : "1397111",
+			"read1_qc_failed" : "0",
+			"read2" : "1397111",
+			"read2_qc_failed" : "0",
+			"singletons" : "281242",
+			"singletons_pct" : "10.07",
+			"singletons_qc_failed" : "0",
+			"step_run" : "anshul-kundaje:atac-seq-trim-align-filter-step-run-single-rep-v1",
+			"total" : "2794222",
+			"total_qc_failed" : "0",
+			"with_itself" : "1015462",
+			"with_itself_qc_failed" : "0"
+		}
+		
+		,
+		{
+			"ENCODE_qc_type" : "complexity_xcorr_quality_metric",
+			"NRF" : "0.727249",
+			"NSC" : "1.524721",
+			"PBC1" : "0.737456",
+			"PBC2" : "3.961290",
+			"RSC" : "0.5886347",
+			"award" : "",
+			"cross_correlation_plot" : "/bio/npervola/ATACseq/scATAC/processed_data/original_basal_luminal/COMBINED_TEST/qc/rep1/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.25M.cc.plot.pdf",
+			"fragment length" : "0",
+			"lab" : "",
+			"paired-end" : "true",
+			"quality_metric_of:array" : "[KLAB_PIPELINE:scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.bam]",
+			"read length" : "150",
+			"sample size" : "109129",
+			"step_run" : "anshul-kundaje:atac-seq-trim-align-filter-step-run-single-rep-v1"
+		}
+		
+	]
+}

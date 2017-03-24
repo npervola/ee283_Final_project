@@ -1,0 +1,106 @@
+digraph {
+
+rankdir=LR
+
+node [shape=ellipse,style="filled,rounded",margin=0,fontsize=10];
+edge [color=gray,fontsize=10,arrowsize=0.5];
+
+	"IDR QC log-" [label="IDR QC log",id="IDR QC log-",style="filled,rounded",fillcolor=whitesmoke,tooltip=".././qc/COMBINED_TEST_IDR_final.qc",href=".././qc/COMBINED_TEST_IDR_final.qc",target="_blank"];
+	"IDR peak-rep1-pr" [label="IDR peak",id="IDR peak-rep1-pr"style="filled,rounded",fillcolor=whitesmoke,tooltip=".././peak/idr/pseudo_reps/rep1/COMBINED_TEST_rep1-pr.IDR0.1.narrowPeak.gz",href=".././peak/idr/pseudo_reps/rep1/COMBINED_TEST_rep1-pr.IDR0.1.narrowPeak.gz",target="_blank"];
+	"bam-rep1" [label="bam",id="bam-rep1"style="filled,rounded",fillcolor=whitesmoke,tooltip=".././align/rep1/scATAC.Combined_R1_Sequences.trim.PE2SE.bam",href=".././align/rep1/scATAC.Combined_R1_Sequences.trim.PE2SE.bam",target="_blank"];
+	"fastq 1-rep1" [label="fastq 1",id="fastq 1-rep1"style="filled,rounded",fillcolor=whitesmoke,tooltip="../",href="../",target="_blank"];
+	"fastq 2-rep1" [label="fastq 2",id="fastq 2-rep1"style="filled,rounded",fillcolor=whitesmoke,tooltip="../",href="../",target="_blank"];
+	"filt. bam-rep1" [label="filt. bam",id="filt. bam-rep1"style="filled,rounded",fillcolor=whitesmoke,tooltip=".././align/rep1/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.bam",href=".././align/rep1/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.bam",target="_blank"];
+	"g. peak-rep1" [label="g. peak",id="g. peak-rep1"style="filled,rounded",fillcolor=whitesmoke,tooltip=".././peak/macs2/rep1/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.tn5.pf.pval0.1.gappedPeak.gz",href=".././peak/macs2/rep1/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.tn5.pf.pval0.1.gappedPeak.gz",target="_blank"];
+	"g. peak-rep1-pr1" [label="g. peak",id="g. peak-rep1-pr1"style="filled,rounded",fillcolor=whitesmoke,tooltip=".././peak/macs2/pseudo_reps/rep1/pr1/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.pr1.tn5.pf.pval0.1.gappedPeak.gz",href=".././peak/macs2/pseudo_reps/rep1/pr1/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.pr1.tn5.pf.pval0.1.gappedPeak.gz",target="_blank"];
+	"g. peak-rep1-pr2" [label="g. peak",id="g. peak-rep1-pr2"style="filled,rounded",fillcolor=whitesmoke,tooltip=".././peak/macs2/pseudo_reps/rep1/pr2/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.pr2.tn5.pf.pval0.1.gappedPeak.gz",href=".././peak/macs2/pseudo_reps/rep1/pr2/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.pr2.tn5.pf.pval0.1.gappedPeak.gz",target="_blank"];
+	"g. peak\noverlap-" [label="g. peak\noverlap",id="g. peak\noverlap-",style="filled,rounded",fillcolor=whitesmoke,tooltip=".././peak/macs2/overlap/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.tn5.pf.pval0.1.500K.naive_overlap.gappedPeak.gz",href=".././peak/macs2/overlap/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.tn5.pf.pval0.1.500K.naive_overlap.gappedPeak.gz",target="_blank"];
+	"g. peak\np-val<0.01-rep1" [label="g. peak\np-val<0.01",id="g. peak\np-val<0.01-rep1",style="filled,rounded",fillcolor=whitesmoke,tooltip=".././peak/macs2/rep1/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.tn5.pf.gappedPeak.gz",href=".././peak/macs2/rep1/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.tn5.pf.gappedPeak.gz",target="_blank"];
+	"n. peak-rep1" [label="n. peak",id="n. peak-rep1"style="filled,rounded",fillcolor=whitesmoke,tooltip=".././peak/macs2/rep1/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.tn5.pf.pval0.1.narrowPeak.gz",href=".././peak/macs2/rep1/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.tn5.pf.pval0.1.narrowPeak.gz",target="_blank"];
+	"n. peak-rep1-pr1" [label="n. peak",id="n. peak-rep1-pr1"style="filled,rounded",fillcolor=whitesmoke,tooltip=".././peak/macs2/pseudo_reps/rep1/pr1/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.pr1.tn5.pf.pval0.1.narrowPeak.gz",href=".././peak/macs2/pseudo_reps/rep1/pr1/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.pr1.tn5.pf.pval0.1.narrowPeak.gz",target="_blank"];
+	"n. peak-rep1-pr2" [label="n. peak",id="n. peak-rep1-pr2"style="filled,rounded",fillcolor=whitesmoke,tooltip=".././peak/macs2/pseudo_reps/rep1/pr2/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.pr2.tn5.pf.pval0.1.narrowPeak.gz",href=".././peak/macs2/pseudo_reps/rep1/pr2/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.pr2.tn5.pf.pval0.1.narrowPeak.gz",target="_blank"];
+	"n. peak\noverlap-" [label="n. peak\noverlap",id="n. peak\noverlap-",style="filled,rounded",fillcolor=whitesmoke,tooltip=".././peak/macs2/overlap/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.tn5.pf.pval0.1.500K.naive_overlap.narrowPeak.gz",href=".././peak/macs2/overlap/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.tn5.pf.pval0.1.500K.naive_overlap.narrowPeak.gz",target="_blank"];
+	"n. peak\np-val<0.01-rep1" [label="n. peak\np-val<0.01",id="n. peak\np-val<0.01-rep1",style="filled,rounded",fillcolor=whitesmoke,tooltip=".././peak/macs2/rep1/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.tn5.pf.narrowPeak.gz",href=".././peak/macs2/rep1/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.tn5.pf.narrowPeak.gz",target="_blank"];
+	"signal fc-rep1" [label="signal fc",id="signal fc-rep1",style="filled,rounded",fillcolor=whitesmoke,tooltip=".././signal/macs2/rep1/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.tn5.pf.fc.signal.bigwig",href=".././signal/macs2/rep1/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.tn5.pf.fc.signal.bigwig",target="_blank"];
+	"signal p-val-rep1" [label="signal p-val",id="signal p-val-rep1",style="filled,rounded",fillcolor=whitesmoke,tooltip=".././signal/macs2/rep1/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.tn5.pf.pval.signal.bigwig",href=".././signal/macs2/rep1/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.tn5.pf.pval.signal.bigwig",target="_blank"];
+	"tag-align-rep1" [label="tag-align",id="tag-align-rep1"style="filled,rounded",fillcolor=whitesmoke,tooltip=".././align/rep1/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.tn5.tagAlign.gz",href=".././align/rep1/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.tn5.tagAlign.gz",target="_blank"];
+	"tag-align-rep1-pr1" [label="tag-align",id="tag-align-rep1-pr1"style="filled,rounded",fillcolor=whitesmoke,tooltip=".././align/pseudo_reps/rep1/pr1/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.pr1.tn5.tagAlign.gz",href=".././align/pseudo_reps/rep1/pr1/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.pr1.tn5.tagAlign.gz",target="_blank"];
+	"tag-align-rep1-pr2" [label="tag-align",id="tag-align-rep1-pr2"style="filled,rounded",fillcolor=whitesmoke,tooltip=".././align/pseudo_reps/rep1/pr2/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.pr2.tn5.tagAlign.gz",href=".././align/pseudo_reps/rep1/pr2/scATAC.Combined_R1_Sequences.trim.PE2SE.nodup.pr2.tn5.tagAlign.gz",target="_blank"];
+	"trimmed\nfastq 1-rep1" [label="trimmed\nfastq 1",id="trimmed\nfastq 1-rep1"style="filled,rounded",fillcolor=whitesmoke,tooltip=".././align/rep1/scATAC.Combined_R1_Sequences.trim.fastq.gz",href=".././align/rep1/scATAC.Combined_R1_Sequences.trim.fastq.gz",target="_blank"];
+	"trimmed\nfastq 2-rep1" [label="trimmed\nfastq 2",id="trimmed\nfastq 2-rep1"style="filled,rounded",fillcolor=whitesmoke,tooltip=".././align/rep1/scATAC.Combined_R2_Sequences.trim.fastq.gz",href=".././align/rep1/scATAC.Combined_R2_Sequences.trim.fastq.gz",target="_blank"];
+	"BOWTIE2-rep1" [label="BOWTIE2",id="BOWTIE2-rep1",fontsize=12,shape=box,style="filled,rounded",fillcolor=salmon];
+	"CUTADAPT\n-rep1" [label="CUTADAPT\n",id="CUTADAPT\n-rep1",fontsize=12,shape=box,style="filled,rounded",fillcolor=darkorange];
+	"FILTER-rep1" [label="FILTER",id="FILTER-rep1",fontsize=12,shape=box,style="filled,rounded",fillcolor=lightcoral];
+	"IDR QC-" [label="IDR QC",id="IDR QC-",fontsize=12,shape=box,style="filled,rounded",fillcolor=pink];
+	"IDR-rep1-pr" [label="IDR",id="IDR-rep1-pr",fontsize=12,shape=box,style="filled,rounded",fillcolor=limegreen];
+	"MACS2\np-val<0.01-rep1" [label="MACS2\np-val<0.01",id="MACS2\np-val<0.01-rep1",fontsize=12,shape=box,style="filled,rounded",fillcolor=lightgreen];
+	"MACS2\np-val<0.1-rep1" [label="MACS2\np-val<0.1",id="MACS2\np-val<0.1-rep1",fontsize=12,shape=box,style="filled,rounded",fillcolor=lightgreen];
+	"MACS2\np-val<0.1-rep1-pr1" [label="MACS2\np-val<0.1",id="MACS2\np-val<0.1-rep1-pr1",fontsize=12,shape=box,style="filled,rounded",fillcolor=lightgreen];
+	"MACS2\np-val<0.1-rep1-pr2" [label="MACS2\np-val<0.1",id="MACS2\np-val<0.1-rep1-pr2",fontsize=12,shape=box,style="filled,rounded",fillcolor=lightgreen];
+	"NAIVE\nOVERLAP\ng. peak-" [label="NAIVE\nOVERLAP\ng. peak",id="NAIVE\nOVERLAP\ng. peak-",fontsize=12,shape=box,style="filled,rounded",fillcolor=skyblue];
+	"NAIVE\nOVERLAP\nn. peak-" [label="NAIVE\nOVERLAP\nn. peak",id="NAIVE\nOVERLAP\nn. peak-",fontsize=12,shape=box,style="filled,rounded",fillcolor=skyblue];
+	"filt. bam-rep1" -> "tag-align-rep1-pr1";
+	"filt. bam-rep1" -> "tag-align-rep1-pr2";
+	"n. peak-rep1" -> "NAIVE\nOVERLAP\nn. peak-";
+	"NAIVE\nOVERLAP\nn. peak-" -> "n. peak\noverlap-";
+	"n. peak-rep1-pr1" -> "NAIVE\nOVERLAP\nn. peak-";
+	"n. peak-rep1-pr2" -> "NAIVE\nOVERLAP\nn. peak-";
+	"g. peak-rep1" -> "NAIVE\nOVERLAP\ng. peak-";
+	"NAIVE\nOVERLAP\ng. peak-" -> "g. peak\noverlap-";
+	"g. peak-rep1-pr1" -> "NAIVE\nOVERLAP\ng. peak-";
+	"g. peak-rep1-pr2" -> "NAIVE\nOVERLAP\ng. peak-";
+	"n. peak-rep1-pr1" -> "IDR-rep1-pr";
+	"n. peak-rep1-pr2" -> "IDR-rep1-pr";
+	"n. peak-rep1" -> "IDR-rep1-pr";
+	"IDR peak-rep1-pr" -> "IDR QC-";
+	"IDR QC-" -> "IDR QC log-";
+
+
+subgraph cluster_rep1 {
+
+	"fastq 1-rep1" -> "CUTADAPT\n-rep1";
+	"CUTADAPT\n-rep1" -> "trimmed\nfastq 1-rep1";
+	"CUTADAPT\n-rep1" -> "trimmed\nfastq 2-rep1";
+	"fastq 2-rep1" -> "CUTADAPT\n-rep1";
+	"trimmed\nfastq 1-rep1" -> "BOWTIE2-rep1";
+	"BOWTIE2-rep1" -> "bam-rep1";
+	"trimmed\nfastq 2-rep1" -> "BOWTIE2-rep1";
+	"bam-rep1" -> "FILTER-rep1";
+	"FILTER-rep1" -> "filt. bam-rep1";
+	"filt. bam-rep1" -> "tag-align-rep1";
+	"tag-align-rep1" -> "MACS2\np-val<0.01-rep1";
+	"MACS2\np-val<0.01-rep1" -> "n. peak\np-val<0.01-rep1";
+	"MACS2\np-val<0.01-rep1" -> "g. peak\np-val<0.01-rep1";
+	"MACS2\np-val<0.01-rep1" -> "signal fc-rep1";
+	"MACS2\np-val<0.01-rep1" -> "signal p-val-rep1";
+	"tag-align-rep1" -> "MACS2\np-val<0.1-rep1";
+	"MACS2\np-val<0.1-rep1" -> "n. peak-rep1";
+	"MACS2\np-val<0.1-rep1" -> "g. peak-rep1";
+
+color="gainsboro";style="filled,rounded";label="Replicate 1";}
+
+subgraph cluster_rep1_pr {
+
+	"IDR-rep1-pr" -> "IDR peak-rep1-pr";
+
+color="gainsboro";style="filled,rounded";label="Pseudo replicates for rep. 1";}
+
+subgraph cluster_rep1_pr1 {
+
+	"tag-align-rep1-pr1" -> "MACS2\np-val<0.1-rep1-pr1";
+	"MACS2\np-val<0.1-rep1-pr1" -> "n. peak-rep1-pr1";
+	"MACS2\np-val<0.1-rep1-pr1" -> "g. peak-rep1-pr1";
+
+color="gainsboro";style="filled,rounded";label="Pseudo-replicate 1 for rep. 1";}
+
+subgraph cluster_rep1_pr2 {
+
+	"tag-align-rep1-pr2" -> "MACS2\np-val<0.1-rep1-pr2";
+	"MACS2\np-val<0.1-rep1-pr2" -> "n. peak-rep1-pr2";
+	"MACS2\np-val<0.1-rep1-pr2" -> "g. peak-rep1-pr2";
+
+color="gainsboro";style="filled,rounded";label="Pseudo-replicate 2 for rep. 1";}
+
+
+
+}

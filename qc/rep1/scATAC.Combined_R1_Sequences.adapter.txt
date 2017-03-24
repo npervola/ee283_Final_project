@@ -1,0 +1,11 @@
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /bio/npervola/ATACseq/scATAC/raw_data/original_basal_luminal/scATAC.Combined_R1_Sequences.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera 	16249	CTGTCTCTTATA	250000			6.50%
+Illumina	937	AGATCGGAAGAGC	250000			0.37%
+Nextera 
